@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo_oscuro"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00526b"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="304dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@mipmap/logo">
+
+        </ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="149dp"
+        android:background="#00526b"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cajas_redondas"
+            android:hint="@string/msg_user"
+            android:paddingRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:paddingLeft="20dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/msgUser"
+                android:layout_width="250dp"
+                android:fontFamily="@font/cream"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/fondo_oscuro"
+                android:inputType="textEmailAddress" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cajas_redondas"
+            android:hint="@string/msg_clave"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            app:endIconMode="password_toggle">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/msgClave"
+                android:layout_width="250dp"
+                android:fontFamily="@font/cream"
+                android:backgroundTint="@color/fondo_oscuro"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:background="@color/fondo_oscuro"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/sesion"
+            android:fontFamily="@font/cream"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bordes_redondos"
+            android:backgroundTint="@color/access"
+            android:text="@string/btn_iniciar"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/fondo_oscuro"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/txtOlvide"
+            android:layout_width="197dp"
+            android:fontFamily="@font/cream"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/olvide_clave" />
+
+        <TextView
+            android:id="@+id/txtRegistrar"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/cream"
+            android:layout_height="wrap_content"
+            android:onClick="irRegistro"
+            android:text="@string/msg_registrar"
+            android:gravity="center_horizontal"
+            tools:ignore="OnClick" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

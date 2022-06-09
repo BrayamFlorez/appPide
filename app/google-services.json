@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "825099364303",
+    "project_id": "tiendasufps",
+    "storage_bucket": "tiendasufps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825099364303:android:81d6f5a57cb3fb54de94ba",
+        "android_client_info": {
+          "package_name": "co.edu.ufps.tiendas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "825099364303-n234mpiill30cuhpeesjd1i177geff9a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDo0viydM6MX9mLnE_mqZaSjSzmvKs-LqE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "825099364303-n234mpiill30cuhpeesjd1i177geff9a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

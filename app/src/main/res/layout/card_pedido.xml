@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="187dp"
+        android:background="#EFF2F7"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Producto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/access"
+            android:fontFamily="@font/cream"
+            android:text="Producto a Pedir"
+            android:textSize="35dp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cream"
+            android:hint="Comentario" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cream"
+            android:hint="Cantidad" />
+
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
